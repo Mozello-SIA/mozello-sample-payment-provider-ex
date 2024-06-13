@@ -1,0 +1,39 @@
+{
+  "app_type": "PAYMENT_GATEWAY",
+  "app_title": "Hello Test Payment",
+  "app_vendor": {
+    "company_name": "<<<name>>>",
+    "support_email": "<<<email>>>",
+    "support_phone": "<<<phone>>>",
+    "developer_email": "<<<email>>>"
+  },
+  "payment_api_url": "<<<payment-provider-hosted-url>",
+  "payment_api_install_url": "<<<payment-provider-hosted-url>/installed.php",
+  "payment_api_settings_url": "<<<payment-provider-hosted-url>/settings.php",
+  "payment_api_data_fields": [
+    {
+      "id": "merchant_id",
+      "title": {
+        "en": "Merchant ID"
+      },
+      "type": "text",
+      "required": true
+    }
+  ],
+  "payment_platform_info": {
+    "available_in_countries": [],
+    "supported_payment_methods": {
+      "visa": true,
+      "mc": true,
+      "maestro": true,
+      "amex": true,
+      "paypal": true
+    },
+    "info_url": {
+      "en": "<<<url>>>"
+    },
+    "pricing_url": {
+      "en": "<<<url>>>"
+    }
+  }
+}
